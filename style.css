@@ -99,3 +99,15 @@ span{
     opacity: 0.5;
     
 }
+
+.listaConhecimento{
+    margin-top: 50px;
+    list-style-type: upper-latin; 
+}
+.listaConhecimento li{
+    font-family: 'Roboto','Arial' sans-serif;
+    font-size: 25px;
+    color: darkgray;
+}
+
+
