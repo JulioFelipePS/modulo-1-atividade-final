@@ -83,7 +83,7 @@ span{
 .email{
     text-decoration: none;
     color: royalblue;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-family: 'Roboto','Arial' sans-serif;
 }
 
