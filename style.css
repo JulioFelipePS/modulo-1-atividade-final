@@ -111,3 +111,24 @@ span{
 }
 
 
+.listaObj  {
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+}
+
+.listaObj li{
+    font-family: 'Roboto','Arial' sans-serif;
+    font-size: 25px;
+    color: darkgray;
+}
+
+.listaObj li::before {
+    content: ""; 
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Blue_check.svg/768px-Blue_check.svg.png'); 
+    background-size: cover; 
+    margin-right: 5px; 
+}
